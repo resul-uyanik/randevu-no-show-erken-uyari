@@ -1,6 +1,9 @@
+@"
 # 🏥 Sağlıkta Randevu İptalleri ve Gelmeme (No-Show) Erken Uyarı Sistemi
 
-Bu proje, poliklinik randevularına gelmeyen hastaları (**No-Show**) makine öğrenmesi teknikleriyle önceden tahmin ederek hastane kapasite kaybını ve atıl zamanı en aza indirmeyi hedefleyen uçtan uca bir veri bilimi çalışmasıdır.
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://randevu-no-show-erken-uyari.streamlit.app)
+
+> 🌐 **Canlı Uygulama:** Modeli ve karar destek panelini tarayıcı üzerinden doğrudan test etmek için [buraya tıklayın](https://randevu-no-show-erken-uyari.streamlit.app).
 
 ---
 
@@ -13,7 +16,7 @@ Bu proje, poliklinik randevularına gelmeyen hastaları (**No-Show**) makine ö�
 ## 📊 Öne Çıkan Bulgular (EDA)
 * **Randevu Bekleme Süresi (Lead Time):** Randevunun oluşturulduğu tarih ile muayene tarihi arasındaki gün farkı arttıkça randevuya gelmeme oranı belirgin şekilde yükselmektedir.
 * **Aynı Gün Randevuları:** Aynı güne alınan randevularda gelme sadakati en yüksek seviyededir.
-* **SMS Bildirimi:** Hatırlatma SMS'lerinin etkisi bekleme süresine ve hedef kitleye göre değişkenlik göstermektedir.
+* **SMS Bildirimi:** Hatırlatma SMS'lerinin etkisi bekleme süresine ve hasta grubuna göre değişkenlik göstermektedir.
 
 ---
 
@@ -21,7 +24,7 @@ Bu proje, poliklinik randevularına gelmeyen hastaları (**No-Show**) makine ö�
 * **Programlama Dili:** Python 3.x
 * **Veri Analizi & Görselleştirme:** Pandas, NumPy, Matplotlib, Seaborn
 * **Makine Öğrenmesi:** Scikit-Learn (Random Forest Classifier, ROC-AUC, Sınıf Dengeleme)
-* **Arayüz Geliştirme:** Streamlit
+* **Arayüz Geliştirme & Dağıtım:** Streamlit, Streamlit Community Cloud
 * **Model Dağıtımı & Serileştirme:** Joblib
 
 ---
